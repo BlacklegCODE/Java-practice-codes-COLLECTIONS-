@@ -11,5 +11,9 @@ public class Main
         names.add("Luffy");
 
         System.out.println(names);
+        System.out.print("Before clearing\n\n");
+        names.clear();
+        System.out.print("After clearing\n");
+        System.out.println(names);
     }
 }
